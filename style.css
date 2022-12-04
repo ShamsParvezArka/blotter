@@ -13,3 +13,8 @@ div.page-border {
 	width: 1000px;
 	height: 1000px;
 }
+
+a {
+	text-decoration: none;
+	color: black;
+}
