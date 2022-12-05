@@ -1,7 +1,27 @@
+@font-face {
+	font-family: "regular";
+	src: url(fonts/dejavu-regular.ttf);
+	font-family: "italic";
+	src: url(fonts/dejavu-italic.ttf);
+	font-family: "bold";
+	src: url(fonts/dejavu-bold.ttf);
+}
+
+html {
+	font-size: 20px;
+}
+
+.bold {
+	font-family: "bold";
+}
+.italic {
+	font-family: "italic"
+}
 h1 {
 	translate(500, 500);
 }
 div.page-border {
+	font-family: "regular";
 	max-width: 780px;
 	margin-left: auto;
 	margin-right: auto;
@@ -14,4 +34,10 @@ div.page-border {
 a {
 	text-decoration: none;
 	color: black;
+}
+button {
+	font-size: 20px;
+}
+li {
+	font-size: 22px;
 }
