@@ -30,7 +30,9 @@ div.page-border {
 	padding: 20px;
 	width: 1000px;
 }
-
+li {
+	font-family: "regular";
+}
 a {
 	text-decoration: none;
 	color: black;
