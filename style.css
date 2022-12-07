@@ -17,9 +17,6 @@ html {
 .italic {
 	font-family: "italic"
 }
-h1 {
-	translate(500, 500);
-}
 div.page-border {
 	font-family: "regular";
 	max-width: 780px;
@@ -27,8 +24,9 @@ div.page-border {
 	margin-right: auto;
 	border-radius: 10px;
 	border: 2px solid black;
-	padding: 20px;
-	width: 1000px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 li {
 	font-family: "regular";
@@ -36,6 +34,13 @@ li {
 a {
 	text-decoration: none;
 	color: black;
+}
+a.links {
+	font-family: "regular";
+	font-size: 18px;
+	text-decoration: underline;
+	text-decoration-color: blue;
+	color: blue;
 }
 button {
 	font-size: 20px;
