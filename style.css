@@ -1,9 +1,14 @@
 html {
 	font-size: 20px;
 }
+div.name-and-authority {
+	transform: translate(0px, 10px);
+}
+div.links {
+	transform: translateX(460px);
+}
 div.page-border {
-	transform: translate(0px, 30px);
-	max-width: 780px;
+	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 10px;
