@@ -1,24 +1,7 @@
-@font-face {
-	font-family: "regular";
-	src: url(fonts/dejavu-regular.ttf);
-	font-family: "italic";
-	src: url(fonts/dejavu-italic.ttf);
-	font-family: "bold";
-	src: url(fonts/dejavu-bold.ttf);
-}
-
 html {
 	font-size: 20px;
 }
-
-.bold {
-	font-family: "bold";
-}
-.italic {
-	font-family: "italic"
-}
 div.page-border {
-	font-family: "regular";
 	max-width: 780px;
 	margin-left: auto;
 	margin-right: auto;
@@ -28,22 +11,18 @@ div.page-border {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-li {
-	font-family: "regular";
-}
 a {
 	text-decoration: none;
 	color: black;
 }
 a.links {
-	font-family: "regular";
 	font-size: 18px;
 	text-decoration: underline;
 	text-decoration-color: blue;
 	color: blue;
 }
-button {
-	font-size: 20px;
+.button {
+	font-size: 100px;
 }
 li {
 	font-size: 22px;
