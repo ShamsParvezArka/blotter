@@ -2,12 +2,13 @@ html {
 	font-size: 20px;
 }
 div.page-border {
+	transform: translate(0px, 30px);
 	max-width: 780px;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 10px;
 	border: 2px solid black;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
