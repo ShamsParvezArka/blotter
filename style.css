@@ -2,14 +2,20 @@ html {
 	font-size: 20px;
 	margin: auto;
 }
-div.name-and-authority {
-	transform: translate(0px, 10px);
+div.logo { 
+	margin-top: 20px;
 }
-#navigation {
+.dancing-duck {
+	height: 80px;
+}
+nav.navbar {
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
+}
+.collapse {
+	margin-top: 20px;
 }
 div.page-border {
 	max-width: 800px;
