@@ -5,9 +5,6 @@ html {
 div.name-and-authority {
 	transform: translate(0px, 10px);
 }
-div.links {
-	transform: translateX(460px);
-}
 #navigation {
 	max-width: 800px;
 	margin-left: auto;
